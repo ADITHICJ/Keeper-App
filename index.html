@@ -1,17 +1,18 @@
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <title>Keeper App</title>
-      <link
-        href="https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap"
-        rel="stylesheet"
-      />
-      <link rel="stylesheet" href="./styles.css" />
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Keeper App</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Reference to styles.css if it's bundled or in public folder -->
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  
+  <body>
+    <div id="root"></div>
     
-    <body>
-      <div id="root"></div>
-      <script type="module" src="/src/index.jsx"></script>
+    <!-- Vite will automatically inject the script for the bundled JS file -->
   </body>
 </html>
-
