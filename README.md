@@ -38,15 +38,16 @@ This project was created as a practice project to strengthen my React fundamenta
     
     The app will open at 👉 http://localhost:3000/
 
-🌍 Deployment (GitHub Pages)
+## 🌍 Deployment (GitHub Pages)
+
 This project is deployed with gh-pages.
 
-1.Build and deploy:
+1. **Build and deploy:**
 
-    ```bash
-    npm run deploy
+     ```bash
+     npm run deploy
     
-2.The app will be available at:
+2. The app will be available at:
 👉 https://adithicj.github.io/Keeper-App/
 
 👩‍💻 Author
